@@ -39,12 +39,12 @@ Relationships were modeled through a fully normalized schema, ensuring:
    * Imported all six CSV datasets into their respective tables
 
 4. **Data Analysis**
-   Once the database was fully structured, SQL queries were used to explore and analyze the data.
-    * Employee details with salary information
-    * Hiring trends, inclding employees hired in 1986
-    * department leadership structure. including managers and their teams
-    * Employee-to-department mappings
-    * Targeted filtering (e.g., employees named Hercules with last names starting with "B")
-    * Department-specific employee listing (Sales, Development)
-    * Cross-department analysis
-    * Frequency distribution of employee last names
+   A series of SQL queries were developed to explore workforce trends and organizational structure: 
+    * Employee records with salary details
+    * Hiring activity (e.g., 1986 cohort analysis)
+    * Department managers and reporting structure
+    * Employee distribution across departments
+    * Targeted filtering (pattern-based name queries)
+    * Department-specific workforce analysis (Sales, Development)
+    * Cross-department comparisons
+    * Last name frequency analysis (useful for identifying patterns or anomalies)
