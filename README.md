@@ -21,3 +21,14 @@ The work is divided into three core phases:
    * Implemented primary and foreign key relationships to maintain data integrity
    * Ensured correct table creation order to support dependencies
    * Imported all six CSV datasets into their respective tables
+
+3. **Data Analysis**
+   Once the database was fully structured, SQL queries were used to explore and analyze the data.
+   * Employee details with salary information
+   * Hiring trends, inclding employees hired in 1986
+   * department leadership structure. including managers and their teams
+   * Employee-to-department mappings
+   * Targeted filtering (e.g., employees named Hercules with last names starting with "B")
+   * Department-specific employee listing (Sales, Development)
+   * Cross-department analysis
+   * Frequency distribution of employee last names
