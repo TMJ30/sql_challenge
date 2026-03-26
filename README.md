@@ -13,3 +13,11 @@ The work is divided into three core phases:
      * Designed an Entity Relationship Diagram (ERD) to map table relationships
      * Identified uniqueness constraints, including the use of composite keys where necessary
      * Structured tables to reflect logical relationships between employeess, departments, and rols
+  
+2. **Data Engineering**
+
+   With the data model defined, the next phase focused on building and populating the database.
+   * Created SQL table schemas with appropriate data types and constraints
+   * Implemented primary and foreign key relationships to maintain data integrity
+   * Ensured correct table creation order to support dependencies
+   * Imported all six CSV datasets into their respective tables
