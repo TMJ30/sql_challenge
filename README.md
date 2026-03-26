@@ -6,6 +6,22 @@ This project focuses on rebulding and analyzing a legacy employee database for P
 
 The work simulates a common data engineering scenario: inherting incomplete historical data and transorming it into a reliable, queryable system. From raw files to structured insights, the proejct covers schema design, data ingestion, and analyticsl querying 
 
+## What This Project Demonstrates
+* Designing a relational database from raw, denormalized data
+* Building a clean schema with enforced integrity (PKs, FKs, contraints)
+* Handling edge cases like non-uniqure identified via composite keys
+* Writing production-style SQL queries to answer business questions
+* Translating hsitorical data into actionable insights
+
+## Data Architechure
+The dataset consists of six core entites:
+* **Employees** - core employee records
+* **Departments** - organizational structure
+* **Salaries** - compensation history
+* **Titles** - job roles over time
+* **Dep_Employee** - employee-to-department relationships
+* **Dept_Manager** - department leadership
+
 ## Project Scope
 The work is divided into three core phases:
 1. **Data Modeling**
