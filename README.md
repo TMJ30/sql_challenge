@@ -8,6 +8,7 @@ The goal is to transform these raw files into a structured relational database a
 ## Project Scope
 The work is divided into three core phases:
 1. **Data Modeling**
+
   The first step involved examining the available CSV files and defining how the data should relate within a relational database.
    * Designed an Entity Relationship Diagram (ERD) to map table relationships
    * Identified uniqueness constraints, including the use of composite keys where necessary
