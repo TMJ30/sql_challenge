@@ -28,15 +28,15 @@ Relationships were modeled through a fully normalized schema, ensuring:
 
 ## Pipeline Breakdown
 1. **Data Modeling**
-* Audited raw CSV structure and field consistency
-* Defined entity relationships and constraints
-* Built ERD to guide schema implementation
+  * Audited raw CSV structure and field consistency
+  * Defined entity relationships and constraints
+  * Built ERD to guide schema implementation
   
 2. **Data Engineering**
- * Created SQL table schemas with appropriate data types and constraints
- * Implemented primary and foreign key relationships to maintain data integrity
- * Ensured correct table creation order to support dependencies
- * Imported all six CSV datasets into their respective tables
+  * Created SQL table schemas with appropriate data types and constraints
+  * Implemented primary and foreign key relationships to maintain data integrity
+  * Ensured correct table creation order to support dependencies
+  * Imported all six CSV datasets into their respective tables
 
 4. **Data Analysis**
    Once the database was fully structured, SQL queries were used to explore and analyze the data.
