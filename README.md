@@ -21,25 +21,24 @@ The dataset consists of six core entites:
 * **Titles** - job roles over time
 * **Dep_Employee** - employee-to-department relationships
 * **Dept_Manager** - department leadership
+Relationships were modeled through a fully normalized schema, ensuring:
+* Referential intregirty across all tables
+* Clear on-to-many and many-to-many mappings
+* Proper indexing through primary and foreign keys
 
-## Project Scope
-The work is divided into three core phases:
+## Pipeline Breakdown
 1. **Data Modeling**
-  
-    The first step involved examining the available CSV files and defining how the data should relate within a relational database.
-     * Designed an Entity Relationship Diagram (ERD) to map table relationships
-     * Identified uniqueness constraints, including the use of composite keys where necessary
-     * Structured tables to reflect logical relationships between employeess, departments, and rols
+* Audited raw CSV structure and field consistency
+* Defined entity relationships and constraints
+* Built ERD to guide schema implementation
   
 2. **Data Engineering**
+ * Created SQL table schemas with appropriate data types and constraints
+ * Implemented primary and foreign key relationships to maintain data integrity
+ * Ensured correct table creation order to support dependencies
+ * Imported all six CSV datasets into their respective tables
 
-   With the data model defined, the next phase focused on building and populating the database.
-   * Created SQL table schemas with appropriate data types and constraints
-   * Implemented primary and foreign key relationships to maintain data integrity
-   * Ensured correct table creation order to support dependencies
-   * Imported all six CSV datasets into their respective tables
-
-3. **Data Analysis**
+4. **Data Analysis**
    Once the database was fully structured, SQL queries were used to explore and analyze the data.
    * Employee details with salary information
    * Hiring trends, inclding employees hired in 1986
