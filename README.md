@@ -1,9 +1,10 @@
-# Employee Database Analysis (Pewlett Hackard)
+# Employee Database Reconstruction & Analysis 
+Pewlett Hackard (Legacy Systems Project)
 
 ## Overview
-This project reconstructs and analyzes a legacy employee database for Pewlett Hackard,focusing on workforce data from the 1980s and 1990s. The original system has been reduced to six CSV files, requiring a full rebuild of that data model, database structure, and analytical queries
+This project focuses on rebulding and analyzing a legacy employee database for Pewlett Hackard, using fragmented CSV exports from the 1980s-1990s. 
 
-The goal is to transform these raw files into a structured relational database and extract meaningful insights about historical employees, departments, and organizational structure. 
+The work simulates a common data engineering scenario: inherting incomplete historical data and transorming it into a reliable, queryable system. From raw files to structured insights, the proejct covers schema design, data ingestion, and analyticsl querying 
 
 ## Project Scope
 The work is divided into three core phases:
