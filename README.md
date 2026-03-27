@@ -39,6 +39,7 @@ Relationships were modeled through a fully normalized schema, ensuring:
    * Imported all six CSV datasets into their respective tables
 
 4. **Data Analysis**
+
    A series of SQL queries were developed to explore workforce trends and organizational structure: 
     * Employee records with salary details
     * Hiring activity (e.g., 1986 cohort analysis)
